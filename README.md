@@ -1,71 +1,70 @@
-# Getting Started with Create React App
+# Sohan Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Project Overview
+This project is a fully functional web application deployed to Azure Web App Services. It features both frontend and backend integration. The primary goal of this project is to provide a portfolio website with interactive content, demonstrating modern web development techniques, continuous integration, and continuous deployment (CI/CD) using GitHub Actions.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### Technologies Used
 
-### `npm start`
+#### Frontend:
+- **React.js**: For building the user interface.
+- **CSS**: For styling the application.
+- **React Icons**: For adding iconography.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Backend:
+- **Node.js**: For server-side functionality.
+- **Express.js**: Lightweight web framework.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Tools and Platforms:
+- **Azure Web App Services**: For hosting and deployment.
+- **GitHub Actions**: For CI/CD pipeline setup.
+- **Git**: For version control.
+- **NPM**: For managing dependencies.
 
-### `npm test`
+#### Other Libraries:
+- **Axios**: For API requests.
+- **Lottie React**: For animations.
+- **React Router DOM**: For routing.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### Lessons Learned
+1. **Deployment on Azure**:
+   - Gained hands-on experience with deploying a full-stack application using Azure Web Apps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **CI/CD Integration**:
+   - Successfully implemented a GitHub Actions workflow to automate testing, building, and deployment processes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Frontend and Backend Collaboration**:
+   - Learned how to integrate React frontend with a Node.js backend seamlessly.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Version Control**:
+   - Enhanced proficiency with Git and GitHub for collaborative and individual workflows.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Future Scope
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Enhanced Features:
+- Add a blog section with dynamic content.
+- Implement user authentication for secure and personalized user experiences.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Optimization:
+- Optimize the application for better performance and scalability.
+- Use a Content Delivery Network (CDN) for faster content delivery.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Responsive Design:
+- Enhance the responsiveness of the application for all screen sizes.
 
-## Learn More
+#### Additional Integrations:
+- Add a contact form with email integration.
+- Integrate analytics for tracking user interactions and behavior.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Deployment Expansion:
+- Explore containerized deployment using Docker.
+- Deploy to multiple cloud providers for high availability.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This structure makes it more readable and organized. You can copy this into your `README.md` file. Let me know if you’d like further assistance!
