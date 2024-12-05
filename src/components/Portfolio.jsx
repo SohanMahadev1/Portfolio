@@ -147,6 +147,7 @@ const Portfolio = () => {
             <p className="text-gray-300 mb-6">{selectedProject.longDescription}</p>
             <div className="grid grid-cols-3 gap-2">
               {selectedProject.images.map((img, index) => (
+                // eslint-disable-next-line jsx-a11y/img-redundant-alt
                 <img
                   key={index}
                   src={img}
